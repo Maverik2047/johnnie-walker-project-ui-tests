@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomGenerator {
     public static String randomMonths() {
 
-        String[] month = {"December", "October", "January", "June", "July", "September", "November", "February"};
+        String[] month = {"Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "Dezember"};
         String random = (month[new Random().nextInt(month.length)]);
         return random;
     }

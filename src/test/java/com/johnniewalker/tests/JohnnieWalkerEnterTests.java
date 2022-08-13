@@ -10,8 +10,8 @@ import org.junit.jupiter.api.Test;
 
 public class JohnnieWalkerEnterTests extends TestBase {
     @Test
-    @Tag("ageChecktest")
-    @Owner("Maverik2047")
+    @Tag("ageCheckTest")
+    @Owner("maverik2047")
     @Severity(SeverityLevel.BLOCKER)
     @Description("Check possibility to enter after 18 years")
     @DisplayName("Successful age validation test")
@@ -26,12 +26,14 @@ public class JohnnieWalkerEnterTests extends TestBase {
     }
 
     @Test
-    @Owner("Maverik2047")
+    @Tag("underAgeCheckTest")
+    @Owner("maverik2047")
     @Severity(SeverityLevel.BLOCKER)
     @Description("Check that is not possible to enter under 18 years")
     @DisplayName("Unsuccessful age validation test")
     void ageUnSuccessfulValidationTest() {
         ageVerificationPage.openPage()
+                .acceptCookies()
                 .setDayOfBirth(testData.day)
                 .setMonthOfBirth(testData.month)
                 .setYearOfBirth("2006")

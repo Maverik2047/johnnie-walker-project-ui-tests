@@ -11,7 +11,7 @@ public class ResultComponents {
     }
 
     public void checkUnsuccessfulEnter() {
-        $("#age_missing_message").shouldHave(Condition.text("Sorry, your age or location " +
-                "does not permit you to enter at this time."));
+        $("#age_missing_message").shouldHave(Condition.text("Entschuldigung, aufgrund Ihres Alters " +
+                "oder Ihres Ortes können Sie diesmal nicht anmelden"));
     }
 }

@@ -17,6 +17,10 @@ public class AgeVerificationPage {
 
     public AgeVerificationPage openPage() {
         open("");
+        return this;
+    }
+
+    public AgeVerificationPage acceptCookies() {
         acceptCookies.click();
         return this;
     }
