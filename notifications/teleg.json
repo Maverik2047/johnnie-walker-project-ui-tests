@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "${JOB_BASE_NAME}",
+    "environment": "opera",
+    "comment": "test",
+    "reportLink": "${BUILD_URL}",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5494532629:AAFLPEcPVL_QlKoPbkQi02STClI4xfXt70g",
+    "chat": "-1001625566256",
+    "replyTo": ""
+  }
+}
