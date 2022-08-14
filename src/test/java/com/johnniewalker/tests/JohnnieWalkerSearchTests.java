@@ -18,18 +18,18 @@ public class JohnnieWalkerSearchTests extends TestBase {
     @Feature("Whisky Cocktails")
     @DisplayName("Search for Whisky cocktails with Lambda steps")
     public void cocktailsSearchTest() {
-        step("Open Johnnie Walker web site", () -> {
-            open("");
-        });
-        step("Accept cookies", () -> {
-            $("#onetrust-accept-btn-handler").click();
-        });
-        step("Verify 18 years age to enter", () -> {
-            $("#age_select_day").selectOption(testData.day);
-            $("#age_select_month").selectOption(testData.month);
-            $("#age_select_year").selectOption(testData.year);
-            $("#age_confirm_btn").click();
-        });
+//        step("Open Johnnie Walker web site", () -> {
+//            open("");
+//        });
+//        step("Accept cookies", () -> {
+//            $("#onetrust-accept-btn-handler").click();
+//        });
+//        step("Verify 18 years age to enter", () -> {
+//            $("#age_select_day").selectOption(testData.day);
+//            $("#age_select_month").selectOption(testData.month);
+//            $("#age_select_year").selectOption(testData.year);
+//            $("#age_confirm_btn").click();
+//        });
         step("Click on whisky cocktails section", () -> {
             $(".navigation-primary-link-title").click();
             $(byText("Whisky Cocktails")).click();
