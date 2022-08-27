@@ -39,7 +39,7 @@
 </p>
 В данном проекте автотесты написаны на <code>Java</code> с использованием <code>Selenide</code> для UI-тестов.
 
-Реализован паттерн PageObject и Lambda Steps
+####Реализованы паттерны PageObject и Lambda Steps
 >
 > <code>Selenoid</code> выполняет запуск браузеров в контейнерах <code>Docker</code>.
 >
