@@ -48,7 +48,6 @@ public class TestBase {
         pageSource();
         browserConsoleLogs();
         addVideo();
-        Selenide.clearBrowserCookies();
-        Selenide.closeWebDriver();
+        Selenide.closeWindow();
     }
 }
