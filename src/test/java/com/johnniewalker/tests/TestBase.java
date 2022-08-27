@@ -1,7 +1,6 @@
 package com.johnniewalker.tests;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import com.johnniewalker.config.CredConfig;
 import com.johnniewalker.pages.AgeVerificationPage;
@@ -48,6 +47,6 @@ public class TestBase {
         pageSource();
         browserConsoleLogs();
         addVideo();
-        Selenide.closeWindow();
+
     }
 }
