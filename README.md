@@ -59,8 +59,8 @@
 
 - [x] Тестирование входа на сайт до 18 лет
 - [x] Тестирование входа на сайт после 18 лет
-- [x] Тестирование поска коктейлей
-- [x] Тестирование поска истории виски
+- [x] Тестирование поиска коктейлей
+- [x] Тестирование поиска истории виски
 ## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/Johnnie_Walker_UI_tests/"> job </a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/Johnnie_Walker_UI_tests/"><img src="images/screens/jenkins.PNG" alt="Jenkins"/></a>
@@ -107,7 +107,7 @@ gradle clean test
 gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-Выдать отчет:
+Сгенерировать отчет:
 ```bash
 allure serve build/allure-results
 ```
