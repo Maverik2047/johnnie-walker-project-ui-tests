@@ -1,5 +1,7 @@
 # Демо проект по автоматизации Johnnie Walker
-
+<p align="center">
+<img title="Allure Overview Dashboard" src="images/screens/jw.PNG">
+</p>
 
 ##  Содержание:
 
