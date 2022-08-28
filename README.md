@@ -43,7 +43,7 @@
 >
 > <code>Selenoid</code> выполняет запуск браузеров в контейнерах <code>Docker</code>.
 >
-> <code>Allure Report/Allure TestOps</code> формирут отчеты о запуске тестов.
+> <code>Allure Report/Allure TestOps</code> формируют отчеты о запуске тестов.
 >
 > Для автоматизированной сборки проекта используется <code>Gradle</code>.
 >
